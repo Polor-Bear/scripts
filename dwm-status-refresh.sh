@@ -121,7 +121,7 @@ print_bat(){
 
 print_date(){
     #date -d '8 hours ago' "+%F %T"
-	date -d '8 hours ago' "+%Y年%m月%d日 %H:%M"
+	date -d '8 hours 4 seconds ago' "+%Y年%m月%d日 %H:%M:%S"
 }
 
 show_record(){

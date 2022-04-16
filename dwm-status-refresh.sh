@@ -94,8 +94,8 @@ get_battery_charging_status() {
 	if $(acpi -b | grep --quiet Discharging)
 	then
 		echo "🔋";
-	else # acpi can give Unknown or Charging if charging, https://unix.stackexchange.com/questions/203741/lenovo-t440s-battery-status-unknown-but-charging
-		echo "🔌";
+	else # acpi can give Unknown or Charging if charging, https://unix.stackexchange.com/questions/203741/lenovo-t440s-battery-status-unknown-but-charging🔌
+		echo "⚡";
 	fi
 }
 
@@ -121,7 +121,7 @@ print_bat(){
 
 print_date(){
     #date -d '8 hours ago' "+%F %T"
-	date -d '8 hours 4 seconds ago' "+%Y年%m月%d日 %H:%M:%S"
+	date -d '8 hours ago' "+%Y年%m月%d日 %H:%M:%S"
 }
 
 show_record(){
